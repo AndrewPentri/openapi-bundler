@@ -1,0 +1,27 @@
+{
+	"openapi":"3.0.0",
+	"info": {
+		"title": "",
+		"description": "",
+		"version": "1.0.0"
+	},
+	"servers": [
+		{
+			"url": "http://localhost:3000"
+		}
+	],
+	"paths": {
+		"$ref": "./routes/_index.json"
+	},
+	"components": {
+		"schemas": {
+			"$ref": "./schemas/_index.json"
+		},
+		"parameters": {
+			"$ref": "./parameters/_index.json"
+		},
+		"responses": {
+			"$ref": "./responses/_index.json"
+		}	
+	}
+}
